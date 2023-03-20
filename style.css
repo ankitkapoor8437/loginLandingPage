@@ -4,6 +4,12 @@
     font-family: 'poppins', sans-serif;
 }
 
+body {
+    background: url('background.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -11,10 +17,6 @@ section {
     min-height: 100vh;
     width: 100%;
     /* background: #00ff00; */
-
-    background: url('background.jpg')no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 
@@ -22,7 +24,7 @@ section {
     position: relative;
     width: 400px;
     height: 450px;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     background: transparent;
     border-radius: 20px;
     backdrop-filter: blur(8px);
@@ -36,7 +38,7 @@ h2 {
     font-size: 2em;
     color: white;
     text-align: center;
-    
+
 
 }
 
@@ -138,4 +140,20 @@ button {
 
 .register p a:hover {
     text-decoration: underline;
+}
+
+.footer {
+    /* background: red; */
+    backdrop-filter: blur(8px);
+    
+}
+
+.copyright{
+    padding: 25px 10px;
+    background: transparent;
+}
+.copyright p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
